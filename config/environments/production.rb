@@ -109,4 +109,8 @@ Rails.application.configure do
   # config.active_record.database_selector = { delay: 2.seconds }
   # config.active_record.database_resolver = ActiveRecord::Middleware::DatabaseSelector::Resolver
   # config.active_record.database_resolver_context = ActiveRecord::Middleware::DatabaseSelector::Resolver::Session
+  ENV['GOOGLE_OAUTH_CLIENT_ID'] = '524184808397-85425d3qmuq5hspaes6rtkqe2gn8i66d.apps.googleusercontent.com'
+  ENV['GOOGLE_OAUTH_CLIENT_SECRET'] = 'JUnnAK3OFEJvO-2ujtuy2bBB'
+  ENV['LINKEDIN_OAUTH_CLIENT_ID'] = '78nmpik54bbk6l'
+  ENV['LINKEDIN_OAUTH_CLIENT_SECRET'] = 'CW6ARFyrf1D8NABi'
 end
